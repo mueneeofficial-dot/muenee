@@ -336,35 +336,6 @@ export const isanMenus: Menu[] = [
       "คลุกให้เข้ากัน",
     ],
   },
-    {
-    id: "som-tam-thai",
-    name: "ส้มตำไทย",
-    category: "อาหารอีสาน",
-    price: 50,
-    time: "15 นาที",
-    spicy: "🌶️ เผ็ดกลาง",
-    image: "/images/default-food.jpg",
-
-    calories: 200,
-    difficulty: "ง่าย",
-    tags: ["มะละกอ", "ส้มตำ", "ถั่ว"],
-    favorite: false,
-
-    ingredients: [
-      "มะละกอดิบ",
-      "ถั่วฝักยาว",
-      "มะเขือเทศ",
-      "ถั่วลิสง",
-      "มะนาว",
-    ],
-
-    recipe: [
-      "ตำพริกกับกระเทียม",
-      "ใส่เครื่องปรุง",
-      "ใส่มะละกอ",
-      "คลุกให้เข้ากัน",
-    ],
-  },
 
   {
     id: "tom-khlong",
@@ -393,36 +364,6 @@ export const isanMenus: Menu[] = [
       "ใส่ปลาย่าง",
       "ปรุงรส",
       "เติมพริก",
-    ],
-  },
-
-  {
-    id: "yam-khai-dao",
-    name: "ยำไข่ดาว",
-    category: "อาหารอีสาน",
-    price: 60,
-    time: "15 นาที",
-    spicy: "🌶️🌶️ เผ็ดกลาง",
-    image: "/images/default-food.jpg",
-
-    calories: 350,
-    difficulty: "ง่าย",
-    tags: ["ไข่", "ยำ", "เผ็ด"],
-    favorite: false,
-
-    ingredients: [
-      "ไข่ดาว",
-      "หอมใหญ่",
-      "มะเขือเทศ",
-      "พริก",
-      "มะนาว",
-    ],
-
-    recipe: [
-      "ทอดไข่ดาว",
-      "ทำน้ำยำ",
-      "ราดบนไข่",
-      "ใส่ผัก",
     ],
   },
 
@@ -915,36 +856,6 @@ export const isanMenus: Menu[] = [
       "คลุกข้าวคั่วและพริก",
     ],
   },
-    {
-    id: "som-tam-kai-kem",
-    name: "ส้มตำไข่เค็ม",
-    category: "อาหารอีสาน",
-    price: 70,
-    time: "15 นาที",
-    spicy: "🌶️ เผ็ดกลาง",
-    image: "/images/default-food.jpg",
-
-    calories: 300,
-    difficulty: "ง่าย",
-    tags: ["ส้มตำ", "ไข่เค็ม", "อีสาน"],
-    favorite: false,
-
-    ingredients: [
-      "มะละกอดิบ",
-      "ไข่เค็ม",
-      "พริก",
-      "กระเทียม",
-      "มะนาว",
-    ],
-
-    recipe: [
-      "ตำพริกกับกระเทียม",
-      "ใส่มะละกอ",
-      "ปรุงรส",
-      "ใส่ไข่เค็ม",
-    ],
-  },
-
   {
     id: "pla-pao",
     name: "ปลาเผาเกลือ",

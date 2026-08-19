@@ -495,7 +495,7 @@ export const thaiMenus: Menu[] = [
     id: "som-tam-thai",
     name: "ส้มตำไทย",
     category: "อาหารไทย",
-    image: "/images/default-food.jpg",
+    image: "/images/som-tam-thai.jpg",
     price: 50,
     time: "15 นาที",
     spicy: "เผ็ดกลาง",
