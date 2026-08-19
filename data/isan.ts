@@ -2,7 +2,7 @@ import { Menu } from "@/lib/menu";
 
 export const isanMenus: Menu[] = [
   {
-    id: "som-tam-thai",
+    id: "som-tam-thai-isan",
     name: "ส้มตำไทย",
     category: "อาหารอีสาน",
     price: 45,
@@ -1229,7 +1229,7 @@ export const isanMenus: Menu[] = [
   },
 
   {
-    id: "pla-tod-nam-pla",
+    id: "pla-tod-nam-pla-isan",
     name: "ปลาทอดน้ำปลา",
     category: "อาหารอีสาน",
     price: 120,
