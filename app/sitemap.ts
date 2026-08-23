@@ -1,9 +1,10 @@
-import type { MetadataRoute } from "next";
+﻿import type { MetadataRoute } from "next";
+import { menus } from "@/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://muenee.vercel.app";
 
-  return [
+  const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
       lastModified: new Date(),
@@ -35,4 +36,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
   ];
+
+  const categoryPages: MetadataRoute.Sitemap = [
+    "thai",
+    "isan",
+    "noodle",
+    "dessert",
+    "drinks",
+  ].map((slug) => ({
+    url: `${baseUrl}/category/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
+  const recipePages: MetadataRoute.Sitemap = menus.map((menu) => ({
+    url: `${baseUrl}/recipe/${menu.id}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...categoryPages, ...recipePages];
 }
