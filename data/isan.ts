@@ -1,4 +1,4 @@
-import { Menu } from "@/lib/menu";
+﻿import { Menu } from "@/lib/menu";
 
 export const isanMenus: Menu[] = [
   {
@@ -8,7 +8,7 @@ export const isanMenus: Menu[] = [
     price: 45,
     time: "10 นาที",
     spicy: "เผ็ดน้อย",
-    image: "/images/som-tam-thai.jpg",
+    image: "/images/default-food.jpg",
 
     calories: 120,
     difficulty: "ง่าย",
@@ -1395,3 +1395,4 @@ export const isanMenus: Menu[] = [
     ],
   },
 ];
+

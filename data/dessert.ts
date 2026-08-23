@@ -1,4 +1,4 @@
-import { Menu } from "@/lib/menu";
+﻿import { Menu } from "@/lib/menu";
 
 export const dessertMenus: Menu[] = [
   {
@@ -8,7 +8,7 @@ export const dessertMenus: Menu[] = [
     price: 80,
     time: "20 นาที",
     sweetness: "หวาน",
-    image: "/images/som-tam-thai.jpg",
+    image: "/images/default-food.jpg",
     calories: 450,
     difficulty: "ง่าย",
     tags: ["มะม่วง", "ข้าวเหนียว", "หวาน"],
@@ -36,7 +36,7 @@ export const dessertMenus: Menu[] = [
     price: 60,
     time: "30 นาที",
     sweetness: "หวาน",
-    image: "/images/tom-yum-noodle.jpg",
+    image: "/images/default-food.jpg",
     calories: 300,
     difficulty: "ปานกลาง",
     tags: ["ชาไทย", "ไอศกรีม", "หวาน"],

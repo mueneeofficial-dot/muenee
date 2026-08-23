@@ -17,24 +17,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://muenee.vercel.app"),
+
   title: {
     default: "MueNee | วันนี้กินอะไรดี?",
     template: "%s | MueNee",
   },
 
   description:
-    "MueNee เว็บไซต์ช่วยคิดเมนูอาหาร สุ่มเมนูอาหารไทย อาหารอีสาน พร้อมสูตรอาหาร วิธีทำ และไอเดียทำกินทุกวัน",
+    "MueNee เว็บไซต์ช่วยคิดเมนูอาหาร สุ่มเมนูอาหารไทยและอาหารอีสาน พร้อมสูตรอาหารและไอเดียทำอาหารง่าย ๆ สำหรับทุกวัน",
 
   keywords: [
     "MueNee",
     "วันนี้กินอะไรดี",
-    "เมนูอาหาร",
     "สุ่มเมนูอาหาร",
+    "เมนูอาหาร",
     "อาหารไทย",
     "อาหารอีสาน",
     "สูตรอาหาร",
-    "วิธีทำอาหาร",
-    "เมนูง่ายๆ",
+    "เมนูอาหารไทย",
+    "เมนูอาหารอีสาน",
+    "ทำอาหาร",
+    "ไอเดียทำอาหาร",
   ],
 
   authors: [
@@ -44,16 +48,14 @@ export const metadata: Metadata = {
   ],
 
   creator: "MueNee",
-
   applicationName: "MueNee",
-
-  metadataBase: new URL("https://example.com"),
 
   openGraph: {
     title: "MueNee | วันนี้กินอะไรดี?",
     description:
-      "ช่วยคิดเมนูอาหาร สุ่มเมนูอาหาร พร้อมสูตรอาหารและวิธีทำแบบง่าย ๆ",
+      "สุ่มเมนูอาหารไทยและอาหารอีสาน พร้อมสูตรอาหารและไอเดียทำอาหารง่าย ๆ สำหรับทุกวัน",
     siteName: "MueNee",
+    url: "https://muenee.vercel.app",
     locale: "th_TH",
     type: "website",
   },
@@ -62,7 +64,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "MueNee | วันนี้กินอะไรดี?",
     description:
-      "ช่วยคิดเมนูอาหาร สุ่มเมนูอาหาร พร้อมสูตรอาหารและวิธีทำแบบง่าย ๆ",
+      "สุ่มเมนูอาหารไทยและอาหารอีสาน พร้อมสูตรอาหารและไอเดียทำอาหารง่าย ๆ สำหรับทุกวัน",
   },
 
   robots: {

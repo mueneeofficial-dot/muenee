@@ -1,4 +1,4 @@
-import { Menu } from "@/lib/menu";
+﻿import { Menu } from "@/lib/menu";
 
 export const noodleMenus: Menu[] = [
   {
@@ -45,7 +45,7 @@ export const noodleMenus: Menu[] = [
     price: 50,
     time: "25 นาที",
     spicy: "🌶️ เผ็ดน้อย",
-    image: "/images/tom-yum-noodle.jpg",
+    image: "/images/default-food.jpg",
 
     calories: 500,
     difficulty: "ปานกลาง",

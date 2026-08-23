@@ -1,4 +1,4 @@
-import { Menu } from "@/lib/menu";
+﻿import { Menu } from "@/lib/menu";
 
 export const thaiMenus: Menu[] = [
   {
@@ -1123,7 +1123,7 @@ export const thaiMenus: Menu[] = [
   },
 
   {
-    id: "boat-noodle",
+    id: "boat-noodle-thai",
     name: "ก๋วยเตี๋ยวเรือ",
     category: "อาหารไทย",
     image: "/images/default-food.jpg",
