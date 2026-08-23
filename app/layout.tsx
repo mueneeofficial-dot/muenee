@@ -72,10 +72,6 @@ export const metadata: Metadata = {
     follow: true,
   },
 
-  verification: {
-    google: "K3R7qy1-c0LOUuA4FpC6bP9d8x8j3i8gOoNKBOa8FNA",
-  },
-
   icons: {
     icon: "/favicon.ico",
   },
@@ -88,6 +84,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="th" suppressHydrationWarning>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="K3R7qy1-c0LOUuA4FpC6bP9d8x8j3i8gOoNKBOa8FNA"
+        />
+      </head>
+
       <body
         className={`
           ${geistSans.variable}
