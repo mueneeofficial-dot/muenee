@@ -1,20 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Providers from "./providers";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://muenee.vercel.app"),
@@ -25,7 +14,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "MueNee เว็บไซต์ช่วยคิดเมนูอาหาร สุ่มเมนูอาหารไทยและอาหารอีสาน พร้อมสูตรอาหารและไอเดียทำอาหารง่าย ๆ สำหรับทุกวัน",
+    "MueNee เว็บไซต์ช่วยคิดเมนูอาหาร สุ่มเมนูอาหารไทย อาหารอีสาน ก๋วยเตี๋ยว ของหวาน และเครื่องดื่ม พร้อมสูตรอาหารและไอเดียทำอาหารง่าย ๆ สำหรับทุกวัน",
 
   keywords: [
     "MueNee",
@@ -34,9 +23,13 @@ export const metadata: Metadata = {
     "เมนูอาหาร",
     "อาหารไทย",
     "อาหารอีสาน",
+    "ก๋วยเตี๋ยว",
+    "ของหวาน",
+    "เครื่องดื่ม",
     "สูตรอาหาร",
     "เมนูอาหารไทย",
     "เมนูอาหารอีสาน",
+    "สูตรก๋วยเตี๋ยว",
     "ทำอาหาร",
     "ไอเดียทำอาหาร",
   ],
@@ -53,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MueNee | วันนี้กินอะไรดี?",
     description:
-      "สุ่มเมนูอาหารไทยและอาหารอีสาน พร้อมสูตรอาหารและไอเดียทำอาหารง่าย ๆ สำหรับทุกวัน",
+      "สุ่มเมนูอาหารไทย อาหารอีสาน ก๋วยเตี๋ยว ของหวาน และเครื่องดื่ม พร้อมสูตรอาหารและไอเดียทำอาหารง่าย ๆ สำหรับทุกวัน",
     siteName: "MueNee",
     url: "https://muenee.vercel.app",
     locale: "th_TH",
@@ -64,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "MueNee | วันนี้กินอะไรดี?",
     description:
-      "สุ่มเมนูอาหารไทยและอาหารอีสาน พร้อมสูตรอาหารและไอเดียทำอาหารง่าย ๆ สำหรับทุกวัน",
+      "สุ่มเมนูอาหารไทย อาหารอีสาน ก๋วยเตี๋ยว ของหวาน และเครื่องดื่ม พร้อมสูตรอาหารและไอเดียทำอาหารง่าย ๆ สำหรับทุกวัน",
   },
 
   robots: {
@@ -92,9 +85,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`
-          ${geistSans.variable}
-          ${geistMono.variable}
+        className="
           antialiased
           bg-white
           text-gray-900
@@ -102,7 +93,7 @@ export default function RootLayout({
           dark:text-gray-100
           transition-colors
           duration-300
-        `}
+        "
       >
         <Providers>
           <Navbar />
