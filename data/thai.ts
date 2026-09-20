@@ -41,7 +41,7 @@ export const thaiMenus: Menu[] = [
     id: "tom-yum-goong",
     name: "ต้มยำกุ้ง",
     category: "อาหารไทย",
-    image: "/images/default-food.jpg",
+    image: "/images/tom-yum-goong.jpg",
     price: 120,
     time: "30 นาที",
     spicy: "เผ็ดกลาง",
