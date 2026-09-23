@@ -75,7 +75,7 @@ export const thaiMenus: Menu[] = [
     id: "pad-thai-goong",
     name: "ผัดไทยกุ้งสด",
     category: "อาหารไทย",
-    image: "/images/default-food.jpg",
+    image: "/images/pad-thai-goong.jpg",
     price: 70,
     time: "25 นาที",
     spicy: "เผ็ดน้อย",
